@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 # ── Configuration ─────────────────────────────────────────────────────────────
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
-PDF_PATH = "eBook-How-to-Build-a-Career-in-AI.pdf"   # update if needed
+PDF_PATH = "Knowledge transfer.pdf"   # update if needed
 EVAL_QUESTIONS_PATH = "generated_questions.text"      # update if needed
 EMBED_MODEL = "local:BAAI/bge-small-en-v1.5"
 RERANKER_MODEL = "BAAI/bge-reranker-base"
