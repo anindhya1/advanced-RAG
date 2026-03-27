@@ -1,0 +1,38 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# LlamaIndex persisted indexes (large JSON files, regenerate locally)
+merging_index_*/
+*_index_*/
+
+# API keys / secrets
+.env
+.env.*
+*.key
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# PDF source documents (often large/proprietary)
+*.pdf
+
+# Evaluation outputs
+generated_questions.text
+*.log
+
+# IDE
+.vscode/
+.idea/
